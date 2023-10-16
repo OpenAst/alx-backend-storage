@@ -59,8 +59,8 @@ $ python3
 '3.10.1''
 
 If /etc/init.d/mongod file is missing, then 
-'$ sudo mkdir -p /data/db'
-'#!/bin/sh
+`$ sudo mkdir -p /data/db`
+`#!/bin/sh
 ### BEGIN INIT INFO
 # Provides:          mongod
 # Required-Start:    $network $local_fs $remote_fs
@@ -292,5 +292,5 @@ case "$1" in
         ;;
 esac
 
-exit 0'
+exit 0`
 
